@@ -29,7 +29,18 @@ h2 {
 
 }
 
-p {
+.pdoinicio {
     color: aliceblue;
 
+}
+
+a {
+    background-color: aliceblue;
+    color: black;
+    padding: 8px;
+    border-radius: 60px;
+}
+
+.pdisplayinline {
+    display: inline;
 }
