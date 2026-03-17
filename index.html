@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="blockflowroot.html">
     <link rel="stylesheet" href="blockgrid.html">
     <link rel="stylesheet" href="blockflow.html">
+    <link rel="stylesheet" href="displayinline-grid.html">
 
 
 
@@ -32,10 +33,12 @@
     </header>
 
     <main>
-          <div>
+        <div>
             <section>
                 <h2> Conceito da propriedade display: </h3>
-                    <p class="pdoinicio"> Define se um elemento é tratado como um bloco ou elemento inline e o layout usado para seus filhos, como layout de fluxo, grid ou flex. Formalmente, a propriedade display define os tipos de exibição internos e externos de um elemento.
+                    <p class="pdoinicio"> Define se um elemento é tratado como um bloco ou elemento inline e o layout
+                        usado para seus filhos, como layout de fluxo, grid ou flex. Formalmente, a propriedade display
+                        define os tipos de exibição internos e externos de um elemento.
                     </p>
                     <a href="display.html">Exemplo Display</a>
         </div>
@@ -51,7 +54,9 @@
         <div>
             <section>
                 <h2> Static: </h3>
-                    <p class="pdoinicio"> A posição padrão de todos os elementos HTML é a static. Ela é utilizada quando não é necessário mudar o posicionamento do elemento, deixando que ele apareça na mesma ordem em que está inserido no código.
+                    <p class="pdoinicio"> A posição padrão de todos os elementos HTML é a static. Ela é utilizada quando
+                        não é necessário mudar o posicionamento do elemento, deixando que ele apareça na mesma ordem em
+                        que está inserido no código.
                     </p>
                     <a href="Static.html">Exemplo Static</a>
         </div>
@@ -59,7 +64,10 @@
         <div>
             <section>
                 <h2>Relative:</h3>
-                    <p class="pdoinicio">Ao utilizar o valor relative, é possível reposicionar o componente utilizando os padrões top, button, left e right, sem que esse elemento perca o seu espaço original no layout da página. Essa propriedade é muito usada para organizar movimentos sutis, e que não vão impactar nos demais itens da página.
+                    <p class="pdoinicio">Ao utilizar o valor relative, é possível reposicionar o componente utilizando
+                        os padrões top, button, left e right, sem que esse elemento perca o seu espaço original no
+                        layout da página. Essa propriedade é muito usada para organizar movimentos sutis, e que não vão
+                        impactar nos demais itens da página.
                     </p>
                     <a href="Relative.html">Exemplo Relative</a>
         </div>
@@ -67,7 +75,8 @@
         <div>
             <section>
                 <h2>Absolute:</h3>
-                    <p class="pdoinicio"> Absolute não faz parte do fluxo normal da página, por isso, ele não tem um espaço próprio no layout e todas as outras estruturas se comportam como se ele não existisse.
+                    <p class="pdoinicio"> Absolute não faz parte do fluxo normal da página, por isso, ele não tem um
+                        espaço próprio no layout e todas as outras estruturas se comportam como se ele não existisse.
                     </p>
                     <a href="Absolute.html">Exemplo Absolute</a>
         </div>
@@ -75,7 +84,9 @@
         <div>
             <section>
                 <h2>Fixed:</h3>
-                    <p class="pdoinicio"> O valor fixed tem o objetivo de fixar um elemento em um ponto específico da página, permanecendo sempre da mesma forma, não sendo afetado pela barra de rolagem.  Além disso, ele também faz com que o item seja completamente removido do fluxo da página.
+                    <p class="pdoinicio"> O valor fixed tem o objetivo de fixar um elemento em um ponto específico da
+                        página, permanecendo sempre da mesma forma, não sendo afetado pela barra de rolagem. Além disso,
+                        ele também faz com que o item seja completamente removido do fluxo da página.
                     </p>
                     <a href="Fixed.html">Exemplo Fixed</a>
         </div>
@@ -83,7 +94,9 @@
         <div>
             <section>
                 <h2>Sticky:</h3>
-                    <p class="pdoinicio">Sticky segue o fluxo da página até um determinado ponto, quando passa a ser fixo. O uso do fixed é muito comum quando é necessário deixar um componente visível por um determinado período, como um menu lateral,por exemplo.
+                    <p class="pdoinicio">Sticky segue o fluxo da página até um determinado ponto, quando passa a ser
+                        fixo. O uso do fixed é muito comum quando é necessário deixar um componente visível por um
+                        determinado período, como um menu lateral,por exemplo.
                     </p>
                     <a href="Sticky.html">Exemplo Sticky</a>
         </div>
@@ -92,7 +105,8 @@
         <div>
             <section>
                 <h2> Display: inline </h3>
-                    <p class="pdoinicio"> O display inline quando usado faz com que todos os elementos fluam na mesma linha, usando apenas
+                    <p class="pdoinicio"> O display inline quando usado faz com que todos os elementos fluam na mesma
+                        linha, usando apenas
                         a largura necessária para o conteúdo, sem iniciar uma nova linha. Elementos inline não respeitam
                         definições de altura ou largura e suas margens não funcionam.
                         Exemplo de quando usar: elementos que fazem parte do fluxo de um parágrafo ou para menus
@@ -105,7 +119,8 @@
         <div>
             <section>
                 <h2> Display: grid </h3>
-                    <p class="pdoinicio"> O display grid quando usado define um elemento como contêiner de grade, ativando o modo layout
+                    <p class="pdoinicio"> O display grid quando usado define um elemento como contêiner de grade,
+                        ativando o modo layout
                         bidimensional (altura e largura) podendo organizar os elementos em linhas e colunas de forma
                         mais precisa.
                         Exemplo de quando usar: estruturar layouts de sites inteiro.
@@ -117,20 +132,22 @@
         <div>
             <section>
                 <h2> Display: inline-grid </h3>
-                    <p class="pdoinicio"> O display inline-grid junta os displays inline e grid, ou seja define um contêiner de grade com
+                    <p class="pdoinicio"> O display inline-grid junta os displays inline e grid, ou seja define um
+                        contêiner de grade com
                         comportamento inline, permitindo que o contêiner fique ao lado de outros elementos na mesma
                         linha, ajustando sua largura ao conteúdo.
                         Exemplo de quando usar: alinhamento bidimensional, sem que o contêiner quebra linha do texto ou
                         outros elementos ao redor.
                     </p>
-                    <a> link </a>
+                    <a href="displayinline-grid.html">Exemplo display: inline-grid</a>
         </div>
         </section>
 
         <div>
             <section>
                 <h2> Display: flow-root </h3>
-                    <p class="pdoinicio"> O display flow-root é usado quando temos elementos dentro do contêiner que queremos passar para
+                    <p class="pdoinicio"> O display flow-root é usado quando temos elementos dentro do contêiner que
+                        queremos passar para
                         fora dele, e ainda fazendo com que esses elementos não fiquem por cima de outras informações.
                         Exemplo de quando usar: Gerenciar layouts complexos.
                     </p>
@@ -140,9 +157,44 @@
 
         <div>
             <section>
+                <h2> Display: inline flow </h3>
+                    <p class="pdoinicio"> No display inline flow o inline faz com que os elementos fiquem tudo em uma
+                        linha, cuidando da parte externa, já o flow organiza internamente os elementos quebrando linhas.
+                        O que não dá certo pois se contradizem.
+                    </p>
+                    <a> link </a>
+        </div>
+        </section>
+
+        <div>
+            <section>
+                <h2> Display: inline grid </h3>
+                    <p class="pdoinicio"> O display inline grid cria linhas como no inline porém que se comporta como um
+                        elemento do que como um bloco, podendo ser quebradas em colunas, como o grid faz.
+                    </p>
+                    <a> link </a>
+        </div>
+        </section>
+
+        <div>
+            <section>
+                <h2> Display: inline flow-root </h3>
+                    <p class="pdoinicio"> O display inline flow-roo faz com que um elemento se comporte como um elemento
+                        de linha, mas crie seu próprio contexto de formatação de bloco internamente. Isso significa que
+                        ele flui no texto sem quebrar linha, mas seu conteúdo interno é tratado como um bloco,
+                        resolvendo problemas de colapso de margem e contendo elementos flutuantes.
+                    </p>
+                    <a> link </a>
+        </div>
+        </section>
+
+        <div>
+            <section>
                 <h2> Display: block </h3>
-                    <p class="pdoinicio">O “block” serve para indicar que o elemento que você quer, vai ocupar o espaço de uma linha, ou seja, naquela linha, somente o que você colocou dentro desse display vai estar. Todo resto, vai ser movido para a próxima linha.
-.
+                    <p class="pdoinicio">O “block” serve para indicar que o elemento que você quer, vai ocupar o espaço
+                        de uma linha, ou seja, naquela linha, somente o que você colocou dentro desse display vai estar.
+                        Todo resto, vai ser movido para a próxima linha.
+                        .
                     </p>
                     <a href="block.html"> Exemplo block</a>
         </div>
@@ -151,7 +203,10 @@
         <div>
             <section>
                 <h2> Display: inline-block </h3>
-                    <p class="pdoinicio">O inline-block é uma mistura do inline com o block. Ou seja, os elementos que tiverem com display inline-block, vão se manter posicionados um do lado do outro, e sem quebras de linhas (pegou isso do inline), mas eles também te dão a liberdade de colocar “width, height, margins e paddings” (pegou isso do block).
+                    <p class="pdoinicio">O inline-block é uma mistura do inline com o block. Ou seja, os elementos que
+                        tiverem com display inline-block, vão se manter posicionados um do lado do outro, e sem quebras
+                        de linhas (pegou isso do inline), mas eles também te dão a liberdade de colocar “width, height,
+                        margins e paddings” (pegou isso do block).
 
                     </p>
                     <a href="inlineblock.html"> Exemplo inline-block</a>
@@ -161,7 +216,8 @@
         <div>
             <section>
                 <h2> Display: block flow </h3>
-                    <p class="pdoinicio">O flow serve para organizar as “blocks” é meio que redundante pois as blocks sempre vão estar organizadas linha a linha.
+                    <p class="pdoinicio">O flow serve para organizar as “blocks” é meio que redundante pois as blocks
+                        sempre vão estar organizadas linha a linha.
                     </p>
                     <a href="blockflow.html"> Exemplo block flow</a>
         </div>
@@ -170,7 +226,8 @@
             <section>
                 <h2> Display: block flex </h3>
                     <p class="pdoinicio">Não dá para utilizar a propriedade block e a flex no mesmo elemento.
-A flex é usada para deixar os elementos lado a lado numa linha, enquanto a block não permite dois elementos ficarem juntos em uma linha.
+                        A flex é usada para deixar os elementos lado a lado numa linha, enquanto a block não permite
+                        dois elementos ficarem juntos em uma linha.
                     </p>
                     <a>Não é possível dar um exemplo pois não funcionam juntos.</a>
         </div>
@@ -186,12 +243,12 @@ A flex é usada para deixar os elementos lado a lado numa linha, enquanto a bloc
         <div>
             <section>
                 <h2> Display: block flow-root </h3>
-                    <p class="pdoinicio"> Todo flow-root é um block, mas nem todo blokc é um flow-root.
+                    <p class="pdoinicio"> Todo flow-root é um block, mas nem todo block é um flow-root.
                     </p>
                     <a href="blockflowroot.html">Exemplo block flow-root</a>
         </div>
         </section>
-        
+
 
 
     </main>
