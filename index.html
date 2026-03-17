@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="Fixed.html">
     <link rel="stylesheet" href="Sticky.html">
     <link rel="stylesheet" href="displaygrid.html">
+    <link rel="stylesheet" href="block.html">
+    <link rel="stylesheet" href="inlineblock.html">
+    <link rel="stylesheet" href="blockflowroot.html">
+    <link rel="stylesheet" href="blockgrid.html">
+    <link rel="stylesheet" href="blockflow.html">
+
 
 
     <title>Position e Display</title>
@@ -134,36 +140,60 @@
 
         <div>
             <section>
-                <h2> Display: inline flow </h3>
-                    <p class="pdoinicio">No display inline flow o inline faz com que os elementos fiquem tudo em uma linha, cuidando da
-                        parte externa, já o flow organiza internamente os elementos quebrando linhas. O que não dá certo
-                        pois se contradizem.
+                <h2> Display: block </h3>
+                    <p class="pdoinicio">O “block” serve para indicar que o elemento que você quer, vai ocupar o espaço de uma linha, ou seja, naquela linha, somente o que você colocou dentro desse display vai estar. Todo resto, vai ser movido para a próxima linha.
+.
                     </p>
-                    <a> link </a>
+                    <a href="block.html"> Exemplo block</a>
         </div>
         </section>
 
         <div>
             <section>
-                <h2> Display: inline grid </h3>
-                    <p class="pdoinicio">O display inline grid cria linhas como no inline porém que se comporta como um elemento do que
-                        como um bloco, podendo ser quebradas em colunas, como o grid faz.
+                <h2> Display: inline-block </h3>
+                    <p class="pdoinicio">O inline-block é uma mistura do inline com o block. Ou seja, os elementos que tiverem com display inline-block, vão se manter posicionados um do lado do outro, e sem quebras de linhas (pegou isso do inline), mas eles também te dão a liberdade de colocar “width, height, margins e paddings” (pegou isso do block).
+
                     </p>
-                    <a> link </a>
+                    <a href="inlineblock.html"> Exemplo inline-block</a>
         </div>
         </section>
 
         <div>
             <section>
-                <h2> Display: inline flow-root </h3>
-                    <p class="pdoinicio">O display inline flow-root faz com que um elemento se comporte como um elemento de linha, mas crie
-                        seu próprio contexto de formatação de bloco internamente. Isso significa que ele flui no texto
-                        sem quebrar linha, mas seu conteúdo interno é tratado como um bloco, resolvendo problemas de
-                        colapso de margem e contendo elementos flutuantes.
+                <h2> Display: block flow </h3>
+                    <p class="pdoinicio">O flow serve para organizar as “blocks” é meio que redundante pois as blocks sempre vão estar organizadas linha a linha.
                     </p>
-                    <a> link </a>
+                    <a href="blockflow.html"> Exemplo block flow</a>
         </div>
         </section>
+        <div>
+            <section>
+                <h2> Display: block flex </h3>
+                    <p class="pdoinicio">Não dá para utilizar a propriedade block e a flex no mesmo elemento.
+A flex é usada para deixar os elementos lado a lado numa linha, enquanto a block não permite dois elementos ficarem juntos em uma linha.
+                    </p>
+                    <a>Não é possível dar um exemplo pois não funcionam juntos.</a>
+        </div>
+        </section>
+        <div>
+            <section>
+                <h2> Display: block grid </h3>
+                    <p class="pdoinicio">O elemento é apresentado num modelo de grade, dentro do block definido.
+.
+                    </p>
+                    <a href="blockgrid.html">Exemplo block grid</a>
+        </div>
+        </section>
+        <div>
+            <section>
+                <h2> Display: block flow-root </h3>
+                    <p class="pdoinicio"> O flow-root resolve um problema de flutuação, ou seja, ele vai deixar o que está flutuando na div, antes dela.
+
+                    </p>
+                    <a href="blockflowroot.html">Exemplo block flow-root</a>
+        </div>
+        </section>
+        
 
 
     </main>
