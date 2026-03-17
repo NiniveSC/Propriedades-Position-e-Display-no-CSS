@@ -26,12 +26,10 @@ section {
 
 h2 {
     color: aliceblue;
-
 }
 
 .pdoinicio {
     color: aliceblue;
-
 }
 
 a {
@@ -46,12 +44,41 @@ a {
     padding: 20px;
     border-radius: 20px;
     width: 30%;
-    
+
 }
 
-p {
+.pdisplayinline {
     color: aliceblue;
     padding: 5px;
     background-color: rgb(0, 0, 0);
     display: inline;
+}
+
+.divgrid {
+    background-color: rgb(134, 255, 164);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 2fr;
+
+}
+
+.yellowgrid {
+    background-color: rgb(255, 242, 0);
+    height: 100%;
+    width: 100%;
+}
+
+.greengrid {
+    background-color: rgb(8, 68, 0);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.redgrid {
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+    width: 100%;
 }
