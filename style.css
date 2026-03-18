@@ -125,16 +125,16 @@ a {
 }
 .blue{
     background-color: blue;
+    display: flex;
+ 
 }
 .flex{
 display: flex;
-
-padding: 10px;
 }
 
 
 .yoflex {
-  background-color: orange;
-  padding: 15px;
-  margin: 5px;
+  background-color: rgb(250, 233, 0);
+  padding: 20px;
+  margin: 10px;
 }
