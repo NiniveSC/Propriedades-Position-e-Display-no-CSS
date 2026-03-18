@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="blockgrid.html">
     <link rel="stylesheet" href="blockflow.html">
     <link rel="stylesheet" href="displayinline-grid.html">
+    <link rel="stylesheet" href="displayinlineflow-root.html">
 
 
 
@@ -158,21 +159,22 @@
         <div>
             <section>
                 <h2> Display: inline flow </h3>
-                    <p class="pdoinicio"> No display inline flow o inline faz com que os elementos fiquem tudo em uma
-                        linha, cuidando da parte externa, já o flow organiza internamente os elementos quebrando linhas.
-                        O que não dá certo pois se contradizem.
+                    <p class="pdoinicio"> display: inline flow até pode ser interpretado, porém é redundante, pois o
+                        valor flow já é o comportamento padrão. Por isso, utiliza-se apenas display: inline.
                     </p>
-                    <a> link </a>
+                    <a>Não há necessidade de exemplo</a>
         </div>
         </section>
 
         <div>
             <section>
                 <h2> Display: inline grid </h3>
-                    <p class="pdoinicio"> O display inline grid cria linhas como no inline porém que se comporta como um
-                        elemento do que como um bloco, podendo ser quebradas em colunas, como o grid faz.
+                    <p class="pdoinicio"> A propriedade display: inline grid não funciona porque o CSS não aceita a
+                        combinação de valores separados. O correto é inline-grid, que define um elemento com
+                        comportamento inline externamente e grid internamente, permitindo organizar conteúdos em linhas
+                        e colunas sem quebrar a linha da página.
                     </p>
-                    <a> link </a>
+                    <a>Não há exemplo</a>
         </div>
         </section>
 
@@ -184,7 +186,7 @@
                         ele flui no texto sem quebrar linha, mas seu conteúdo interno é tratado como um bloco,
                         resolvendo problemas de colapso de margem e contendo elementos flutuantes.
                     </p>
-                    <a> link </a>
+                    <a href="displayinlineflow-root.html">Exemplo display inline flow-root</a>
         </div>
         </section>
 
@@ -249,35 +251,39 @@
         </div>
         </section>
 
-         <div>
+        <div>
             <section>
                 <h2> Display: flex </h3>
-                    <p class="pdoinicio"> O Flex quando usado é fundamental para criar layouts flexíveis, se alinhando automaticamente em linhas ou colunas. 
+                    <p class="pdoinicio"> O Flex quando usado é fundamental para criar layouts flexíveis, se alinhando
+                        automaticamente em linhas ou colunas.
 
                     </p>
                     <a href="flex.html">Exemplo flex</a>
         </div>
         </section>
 
-                 <div>
+     
+        <div>
             <section>
                 <h2> Display: inline-flex </h3>
-                    <p class="pdoinicio">  Quando usado é responsável por criar layouts flexíveis em elementos que se ajustam com o tamanho do conteúdo
+                    <p class="pdoinicio"> Quando usado é responsável por criar layouts flexíveis em elementos que se
+                        ajustam com o tamanho do conteúdo
 
                     </p>
                     <a href="inline-flex.html">Exemplo inline-flex</a>
         </div>
         </section>
 
-                 <div>
+        <div>
             <section>
                 <h2> Display: table</h3>
-                    <p class="pdoinicio"> Quando utilizado é se comporta como um HTML tradicional, organizando elementos como linhas e células. 
+                    <p class="pdoinicio"> Quando utilizado é se comporta como um HTML tradicional, organizando elementos
+                        como linhas e células.
                     </p>
                     <a href="table.html">Exemplo table</a>
         </div>
         </section>
-        
+
 
 
     </main>
