@@ -123,3 +123,18 @@ a {
     top: 50px;
     left: 50px;
 }
+.blue{
+    background-color: blue;
+}
+.flex{
+display: flex;
+
+padding: 10px;
+}
+
+
+.yoflex {
+  background-color: orange;
+  padding: 15px;
+  margin: 5px;
+}
