@@ -99,3 +99,18 @@ a {
     font-weight: bold;
 }
 
+.containerflow-root {
+    display: flow-root;
+    background-color: rgb(200, 255, 210);
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.caixaflow-root {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+    margin-right: 10px;
+}
