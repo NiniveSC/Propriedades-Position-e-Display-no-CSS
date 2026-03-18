@@ -114,3 +114,12 @@ a {
     float: left;
     margin-right: 10px;
 }
+
+.caixa {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: static;
+    top: 50px;
+    left: 50px;
+}
