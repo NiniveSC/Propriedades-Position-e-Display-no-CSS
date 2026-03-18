@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(134, 255, 164);
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -113,4 +113,18 @@ a {
     background-color: green;
     float: left;
     margin-right: 10px;
+}
+
+.spaninlineflow-root {
+    display: inline flow-root;
+    background-color: lightgreen;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.caixainlineflow-root {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    float: left;
 }
